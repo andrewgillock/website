@@ -90,14 +90,14 @@ params:
     enable: true
     intro: "Hi there! My name is"
     title: "Andrew Gillock"
-    subtitle: "I'm a Business Analytics MS student at the McCombs School of Business"
+    subtitle: "I'm a Business Analytics graduate student at the McCombs School of Business"
     #content: "test..."
     image: /images/me3.png
     button:
       enable: true
       name: "Resume"
       #url: "/testresume.pdf"
-      url: /testresume.pdf
+      url: /resume.pdf
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -114,11 +114,24 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      This is where I write stuff about meself 
-
-      And more here too
+      I was born and raised in San Antonio, Texas. 
+      I enjoy spending my free time outside whether it's paddleboarding, hiking, tennis, basketball, or just going for a walk. 
+      My sports teams are the Spurs and the Cowboys! 
+      I like most types of music but country, jazz, and R&B are some of my favorites!
+      
+      I've been fortunate to attend the University of Texas at Austin for both undergrad and graduate school.
+      Studying biology during my time as an undergraduate student introduced me to data analysis, which I realized is relevant and applicable in nearly every field of work.
+      Obtaining my Applied Statistical Modeling certificate provided me with experience in statistical methods and programming. 
+      I decided to pursue graduate studies in this field because I've felt drawn the capabilities of data-driven solutions.
+      
+      I hope to use data to make informed decisions about the future and reduce the error and risk accompanied by change.
+      With the amount of data generated in our day-to-day lives, we have the potential to solve global contemporary issues using minimal resources and time. 
+      More specifically, practicing intergenerational ethics can guarantee that our future generations have access to the same resources we enjoy today.
+      
+       
+      
     skills:
-      enable: true
+      enable: false
       title: "Here are some skills of mine:"
       items:
         - "R"
@@ -243,7 +256,7 @@ params:
     enable: true
     items:
       - title: Designing Ideal Classification Models for Malignant and Benign Breast Tumor Samples
-        content: Classification Investigation Using Tree-Based Methods
+        content: Classification investigation using tree-based methods
         image: /images/sds323Final.png
         featured:
           name: PDF
@@ -261,7 +274,7 @@ params:
         #     url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
       - title: "Exploratory Analysis: Collegiate Sports Revenue"
-        content: 
+        content: Regressional analysis of revenue by sport
         image: /images/sds375.png
         featured:
           name: PDF
