@@ -92,12 +92,12 @@ params:
     title: "Andrew Gillock"
     subtitle: "I'm a Business Analytics graduate student at the McCombs School of Business"
     #content: "test..."
-    image: /images/me3.png
+    image: /images/me2.png
     button:
       enable: true
       name: "Resume"
       #url: "/testresume.pdf"
-      url: /resume.pdf
+      url: /personalResume.pdf
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -112,30 +112,31 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.jpg"
+    image: /images/me.jpg
     content: |-
       I was born and raised in San Antonio, Texas. 
       I enjoy spending my free time outside whether it's paddleboarding, hiking, tennis, basketball, or just going for a walk. 
-      My sports teams are the Spurs and the Cowboys! 
-      I like most types of music but country, jazz, and R&B are some of my favorites!
+      My favorite sports teams are the San Antonio Spurs and the Texas Longhorns! 
+      I'll listen to most types of music, but country, jazz, and hip-hop are some of my favorites. I'm always welcome to new recommendations as well.
       
       I've been fortunate to attend the University of Texas at Austin for both undergrad and graduate school.
       Studying biology during my time as an undergraduate student introduced me to data analysis, which I realized is relevant and applicable in nearly every field of work.
-      Obtaining my Applied Statistical Modeling certificate provided me with experience in statistical methods and programming. 
+      Obtaining my Applied Statistical Modeling certificate provided me with first experiences in statistical methods and programming. 
       I decided to pursue graduate studies in this field because I've felt drawn to the capabilities of data-driven solutions.
       
       I hope to use data to make informed decisions about the future and reduce the error and risk accompanied by change.
       With the amount of data generated in our day-to-day lives, we have the potential to solve global contemporary issues using minimal resources and time. 
-      More specifically, practicing intergenerational ethics can guarantee that our future generations have access to the same resources we enjoy today.
+      Although I am still learning, I have come to enjoy the process of wrangling/cleaning datasets, building predictive models, and visualizing the results.
       
-       
       
     skills:
-      enable: false
+      enable: true
       title: "Here are some skills of mine:"
       items:
-        - "R"
-        - "Python"
+        - "R: dplyr, machine learning/predictive models, data visualization"
+        - "Python: Pandas, Scikit-Learn"
+       
+        
         
 
   # Experience
@@ -214,6 +215,7 @@ params:
         date: "July 2022 - May 2023"
         #GPA: "3.8 out of 5.0"
         content: |-
+            
         
         featuredLink:
           enable: true
@@ -226,7 +228,7 @@ params:
           name: " The University of Texas at Austin - College of Natural Sciences"
           url: "https://www.cns.utexas.edu/"
         date: "August 2018 - May 2022"
-        GPA: "3.64 / 4.0"
+        #GPA: "3.64 / 4.0"
         content: |-
               Minor: Business
               
@@ -273,7 +275,7 @@ params:
         #   - icon: fab fa-twitter
         #     url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: "Exploratory Analysis: Collegiate Sports Revenue"
+      - title: 'Exploratory Analysis: Collegiate Sports Revenue' #in quotes because of ':''
         content: Regressional analysis of revenue by sport, Spring 2022
         image: /images/sds375.png
         featured:
@@ -282,23 +284,38 @@ params:
         badges:
           - "R"
           - "Regression"
+          - "Data Visualization"
         # links:
         #   - icon: fab fa-github
         #     url: https://github.com/gurusabarish/converter
 
-      # - title: Hugo Profile V2
-      #   content: A clean and simple Hugo template for personal portfolio and blog.
-      #   image: /images/projects/profile2.jpg
-      #   featured:
-      #     name: Demo V2
-      #     link: https://hugo-profile-2.netlify.app
-      #   # badges:
-      #   #   - "Hugo"
-      #   #   - "Bootstrap"
-      #   #   - "Javascript"
-      #   links:
-      #     - icon: fab fa-github
-      #       url: https://github.com/gurusabarish/HugoProfileV2
+      - title: 'Exploratory Analysis: Website Ratings'
+        content: Data exploration using Pandas library, Summer 2022
+        image: /images/hw3.png
+        featured:
+          name: PDF
+          link: /hw3.pdf
+        badges:
+          - "Pandas"
+          - "Data Analysis"
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/gurusabarish/converter
+
+
+      - title: Document Analysis & Association Rule Mining 
+        content: Using TF-IDF to classify documents and network analysis of customer grocery baskets, Summer 2022
+        image: /images/STA380.png
+        featured:
+          name: PDF
+          link: /STA380.pdf
+        badges:
+          - "R"
+          - "Bag of Words"
+          - "Networks"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/andrewgillock/groupExercises
 
   #Contact
   contact:
@@ -310,8 +327,8 @@ params:
   footer:
     recentPosts: false
     socialNetworks:
-      github: /https://github.com/andrewgillock
-      linkedin: /https://linkedin.com/in/andrewgillock
+      github: https://github.com/andrewgillock
+      linkedin: https://linkedin.com/in/andrewgillock
       #twitter: https://twitter.com
       #instagram: https://instagram.com
-      facebook: /https://www.facebook.com/profile.php?id=100010942300038
+      #facebook: https://www.facebook.com/profile.php?id=100010942300038
