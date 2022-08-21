@@ -119,9 +119,9 @@ params:
       My favorite sports teams are the San Antonio Spurs and the Texas Longhorns! 
       I'll listen to most types of music, but country, jazz, and hip-hop are some of my favorites. I'm always welcome to new recommendations as well.
       
-      I've been fortunate to attend the University of Texas at Austin for both undergrad and graduate school.
+      I've been fortunate to attend the University of Texas at Austin for both undergraduate and graduate education.
       Studying biology during my time as an undergraduate student introduced me to data analysis, which I realized is relevant and applicable in nearly every field of work.
-      Obtaining my Applied Statistical Modeling certificate provided me with first experiences in statistical methods and programming. 
+      Obtaining my Applied Statistical Modeling certificate provided me with my first experiences in statistical methods using programming. 
       I decided to pursue graduate studies in this field because I've felt drawn to the capabilities of data-driven solutions.
       
       I hope to use data to make informed decisions about the future and reduce the error and risk accompanied by change.
@@ -296,6 +296,7 @@ params:
           name: PDF
           link: /hw3.pdf
         badges:
+          - "Python"
           - "Pandas"
           - "Data Analysis"
         # links:
