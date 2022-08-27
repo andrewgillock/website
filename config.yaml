@@ -112,7 +112,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: /images/me.jpg
+    image: /images/casualHeadshot.png
     content: |-
       I was born and raised in San Antonio, Texas. 
       I enjoy spending my free time outside whether it's paddleboarding, hiking, tennis, basketball, or just going for a walk. 
@@ -314,6 +314,7 @@ params:
           - "R"
           - "Bag of Words"
           - "Networks"
+          - "Gephi"
         links:
           - icon: fab fa-github
             url: https://github.com/andrewgillock/groupExercises

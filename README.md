@@ -3,4 +3,9 @@ Personal Website
 
 # notes
 all edits in config.yaml
-last updated 7/4/22
+
+how can I make links open in new page?
+
+
+
+last updated 8/27/22
